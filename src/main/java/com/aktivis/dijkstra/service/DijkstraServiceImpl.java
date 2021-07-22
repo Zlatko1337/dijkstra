@@ -14,7 +14,7 @@ import com.aktivis.dijkstra.repositories.TaskRepository;
 public class DijkstraServiceImpl implements DijkstraService{
 
 	@Autowired
-    private TaskRepository taskRepository;
+        private TaskRepository taskRepository;
 	
 	private static final int NO_PARENT = -1;
 	private String path = "";
@@ -157,7 +157,7 @@ public class DijkstraServiceImpl implements DijkstraService{
 	}
 
 	
-	private void constructPath(int currentVertex, int endVertex, int[] parents) { //dodaj parametar end Vertex
+	private void constructPath(int currentVertex, int endVertex, int[] parents) {
 		if (currentVertex == NO_PARENT) {
 			return;
 		}	
