@@ -1,4 +1,4 @@
-This simple app implements Dijkstra shortest path algo. 
+Simple Spring boot app that implements Dijkstras shortest path algo. 
 Input is incidence matrix, edges-weight pairs (format e.g 5: 20), start vertex and end vertex. Output is shortest path and total path cost.
 
 Build:
