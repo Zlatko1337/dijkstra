@@ -29,7 +29,7 @@ public class DijkstraServiceImpl implements DijkstraService{
 		String result = dijkstra(adjacencyMatrix, startVertex, endVertex);
 		path = "";
 		
-		taskRepository.save(new Task(incidenceMatrixString, weights, startVertex, endVertex, "aa"));
+		taskRepository.save(new Task(incidenceMatrixString, weights, startVertex, endVertex, result));
 		
 		return result;
 	}
