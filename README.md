@@ -14,6 +14,3 @@ In case of problems:
 2. taskkill /F /PID pid_id
 3. Run .exe or .jar
 
-RIP Dijkstra <3
-Written for Aktivis d.o.o
-
